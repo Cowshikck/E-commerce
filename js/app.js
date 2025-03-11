@@ -755,7 +755,7 @@ function generateBillContent(orderId, orderNumber, orderDate, deliveryDate, user
         <div class="invoice-container">
             <div class="invoice-header">
                 <div class="logo-container">
-                    <h1>ShopTrendy</h1>
+                    <h1>E-cart</h1>
                     <p>Your Trendy Shopping Destination</p>
                 </div>
                 <div class="invoice-details">
@@ -824,7 +824,7 @@ function generateBillContent(orderId, orderNumber, orderDate, deliveryDate, user
 
             <div class="invoice-footer">
                 <div class="footer-content">
-                    <p>Thank you for shopping with ShopTrendy!</p>
+                    <p>Thank you for shopping with E-Cart!</p>
                 </div>
             </div>
         </div>
@@ -838,7 +838,7 @@ function printBill() {
     printWindow.document.write(`
         <html>
             <head>
-                <title>ShopTrendy - Invoice</title>
+                <title>E-cart - Invoice</title>
                 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
                 <style>
                     body { font-family: 'Poppins', sans-serif; padding: 20px; color: #333; line-height: 1.5; }
